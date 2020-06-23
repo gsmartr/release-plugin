@@ -15,7 +15,7 @@ java {
 }
 
 description = "Test App"
-version = '1.0.0-SNAPSHOT'
+version = version != 'unspecified' ? version : '1.0.0-SNAPSHOT'
 
 bootJar {
 	manifest {
