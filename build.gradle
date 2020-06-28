@@ -38,8 +38,4 @@ dependencies {
 release {
 	failOnUnversionedFiles = false
 	preCommitText = '[Gradle Release Plugin] - MAP API - Version increment'
-	
-	git {
-		requireBranch = 'master|develop'
-	}
 }
